@@ -229,9 +229,12 @@
                 <div class="carousel-caption d-none d-md-block">
                     <h2>Code Forever</h2>
                     <p>“Programmer: A machine that turns coffee into code.”</p>
-                    <button type="button" class="btn btn-danger">Technology</button>
-                    <button type="button" class="btn btn-primary">Web Development</button>
-                    <button type="button" class="btn btn-success">Tech Fun</button>
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                        data-bs-target="#technologyModal">Technology</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#Web-DevelopmentModal">Web Development</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#techModal">Tech Fun</button>
                 </div>
             </div>
             <div class="carousel-item">
@@ -239,9 +242,12 @@
                 <div class="carousel-caption d-none d-md-block">
                     <h2>Famous Quotes</h2>
                     <p>“Remember that there is no code faster than no code.”</p>
-                    <button type="button" class="btn btn-danger">Technology</button>
-                    <button type="button" class="btn btn-primary">Web Development</button>
-                    <button type="button" class="btn btn-success">Tech fun</button>
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                        data-bs-target="#technologyModal">Technology</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#Web-DevelopmentModal">Web Development</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#techModal">Tech Fun</button>
                 </div>
             </div>
             <div class="carousel-item">
@@ -249,9 +255,12 @@
                 <div class="carousel-caption d-none d-md-block">
                     <h2>Famous Quotes</h2>
                     <p>“C programmers never die. They are just cast into void.”</p>
-                    <button type="button" class="btn btn-danger">Technology</button>
-                    <button type="button" class="btn btn-primary">Web Development</button>
-                    <button type="button" class="btn btn-success">Tech Fun</button>
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                        data-bs-target="#technologyModal">Technology</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#Web-DevelopmentModal">Web Development</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#techModal">Tech Fun</button>
                 </div>
             </div>
         </div>
@@ -265,6 +274,81 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
+    </div>
+
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+    </button> -->
+
+    <!-- Modal for Technology button -->
+    <div class="modal fade" id="technologyModal" tabindex="-1" aria-labelledby="technologyModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="technologyModalLabel">Technology</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>&nbsp&nbsp&nbsp&nbspAre you aware of the most groundbreaking technological innovations on the
+                        horizon? If not, get
+                        connected with Venture Beat right away. We feel it is one of the best tech blogs for people who
+                        want to hear about the latest scientific studies as well as the daily headlines circulating the
+                        technology world.
+                    <p> &nbsp&nbsp&nbsp&nbsp
+                        The online technology magazine offers a variety of new topics daily, covering the technology
+                        that may change your business and personal life tomorrow. Venture Beat covers everything from
+                        video games and artificial intelligence to marketing, media, and transportation. Following the
+                        channels that are relevant to your professional and personal life allows you to save time while
+                        missing nothing.</p>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for Web-Development button -->
+    <div class="modal fade" id="Web-DevelopmentModal" tabindex="-1" aria-labelledby="Web-DevelopmentModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="Web-DevelopmentModalLabel">Web-Development Blog</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Focus on web design and development, web content and its meaning, best practices and standards of modern web. Most of the content consists of opinion articles, ranging from future trends to environmental impact of IT and career advice. That’s why this site is wonderful for people who are not involved directly with web development — they can prepare themselves for better teamwork, understand common practices and be able to spot frauds during recruitment.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for Tech fun button -->
+    <div class="modal fade" id="techModal" tabindex="-1" aria-labelledby="techModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="techModalLabel">Tech Fun</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Founded in 2011 and currently owned by the New York Times, Wirecutter samples all things gear and technology and then features the cream of the crop for your consideration. Its team consists of journalists, researchers and scientists alike, which helps explain the site’s thoroughly broad coverage. If you’re looking for the best of the best products in any given category (meaning everything from printers to computers to camping gear), see what Wirecutter has to say about it and then move forward accordingly. For that reason and more, this is one of the best tech blogs on the Internet.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
     </div>
 
 
